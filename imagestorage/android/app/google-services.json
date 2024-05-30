@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "552605403111",
+    "firebase_url": "https://infocar-16375-default-rtdb.firebaseio.com",
+    "project_id": "infocar-16375",
+    "storage_bucket": "infocar-16375.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552605403111:android:c45c33f0d1e35168f99f42",
+        "android_client_info": {
+          "package_name": "com.example.imagestorage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjizr-IIZO2FZ5J0D28lP6NxAEsiXhvUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552605403111:android:a712148ae8914327f99f42",
+        "android_client_info": {
+          "package_name": "com.example.infocar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjizr-IIZO2FZ5J0D28lP6NxAEsiXhvUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
