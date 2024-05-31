@@ -16,7 +16,7 @@ class ForgotPassword extends StatefulWidget {
 
 class _ForgotPasswordState extends State<ForgotPassword> {
   String email = "";
-  TextEditingController mailcontroller = new TextEditingController();
+  TextEditingController emailController = new TextEditingController();
 
   final _formkey = GlobalKey<FormState>();
 
@@ -91,7 +91,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                                 return null;
                               },
                               
-                              controller: mailcontroller,
+                              controller: emailController,
                               style: TextStyle(color: Colors.white),
                               decoration: InputDecoration(
                                   hintText: "Email",
@@ -113,7 +113,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                             onTap: () {
                               if(_formkey.currentState!.validate()){
                                 setState(() {
-                                  email=mailcontroller.text;
+                                  email=emailController.text;
                                 });
                                 resetPassword();
                               }
